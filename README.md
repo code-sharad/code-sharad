@@ -3,7 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=code-sharad&label=Profile%20views&color=0e75b6&style=flat" alt="code-sharad" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=code-sharad" alt="code-sharad" /></a> </p>
 
 - 🔭 I’m currently working on **MERN stack**
 
