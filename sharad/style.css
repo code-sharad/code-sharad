@@ -67,9 +67,10 @@ main svg{
     font-size: larger;
     border-radius: 6px;
 }
+
 a{
     text-decoration: none;
-
+    -webkit-tap-highlight-color: transparent;
 }
 
 p{
