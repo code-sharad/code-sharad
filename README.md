@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm sharad bhadait</h1>
-<h3 align="center">A passionate developer from India</h3>
+<h3 align="center">A passionate Web developer from India</h3>
 
 
 <!-- [![Typing SVG](https://readme-typing-svg.demolab.com?font=Handlee&size=32&duration=3000&pause=1000&center=true&width=300&lines=+I'm+a+learning+coder+...;+++++++++++++++++++++++Hey!+It's+Sharad!)](https://git.io/typing-svg) -->
@@ -34,9 +34,10 @@
 
 
 ### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<p align='center'>
+    <img  src='https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical' />
+</p>
 
-### 😂 Random Dev Meme
-<img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
+
 
 
