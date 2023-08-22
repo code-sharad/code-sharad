@@ -21,10 +21,11 @@
 # 📊 GitHub Stats:
 <br/>
 
-<img align='center' src='https://github-readme-stats.vercel.app/api?username=code-sharad&theme=midnight-purple&hide_border=false&include_all_commits=false&count_private=false'/>
-<img align='center' src='https://github-readme-streak-stats.herokuapp.com/?user=code-sharad&theme=midnight-purple&hide_border=false'/>
+
 
 <p align="center">
+    <img align='center' src='https://github-readme-stats.vercel.app/api?username=code-sharad&theme=midnight-purple&hide_border=false&include_all_commits=false&count_private=false'/>
+<img align='center' src='https://github-readme-streak-stats.herokuapp.com/?user=code-sharad&theme=midnight-purple&hide_border=false'/>
     <img align='center' src="https://github-readme-stats.vercel.app/api/top-langs/?username=code-sharad&theme=midnight-purple&hide_border=false&include_all_commits=false&count_private=false&layout=compact" />
 </p>
 
