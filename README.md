@@ -24,8 +24,11 @@
 <<<<<<< HEAD
 ![]()
 
+<p align="center">
+    <img align='center' src="https://github-readme-stats.vercel.app/api/top-langs/?username=code-sharad&theme=midnight-purple&hide_border=false&include_all_commits=false&count_private=false&layout=compact" />
+</p>
 
->>>>>>> 442c0733c820bebc5cf63a831a8ebda388577dcc
+
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
