@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm sharad bhadait</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">A passionate developer from India</h3>
 
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Handlee&size=32&duration=3000&pause=1000&center=true&width=300&lines=+I'm+a+learning+coder+...;+++++++++++++++++++++++Hey!+It's+Sharad!)](https://git.io/typing-svg)
@@ -21,10 +21,11 @@
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=code-sharad&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=code-sharad&theme=dark&hide_border=false)<br/>
+<<<<<<< HEAD
 ![]()
-<p align="center">
-    <img align='center' src="https://github-readme-stats.vercel.app/api/top-langs/?username=code-sharad&theme=midnight-purple&hide_border=false&include_all_commits=false&count_private=false&layout=compact" />
-</p>
+
+
+>>>>>>> 442c0733c820bebc5cf63a831a8ebda388577dcc
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
