@@ -30,7 +30,7 @@ body {
     stroke-dasharray: 728.6748657226562;
     stroke-dashoffset: 728.6748657226562;
     /* transform: rotate(-20deg); */
-    animation: sign 3s;
+    animation: sign 3s ease;
     animation-fill-mode: both;
     animation-delay: 1.2s;
 }
