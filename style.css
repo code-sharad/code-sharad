@@ -7,12 +7,12 @@
 
 
 body {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background: url(blurry-gradient-haikei.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+    background-size: 100%;
+    /* overflow: hidden; */
     /* -webkit-filter: blur(50px); */
     /* transition: ease ; */
 }
@@ -46,7 +46,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2rem auto;
+    padding: 2rem auto;
     height: 100%;
 }
 
@@ -132,12 +132,14 @@ p {
 @media screen and (max-width:720px) {
 
     body {
-        height: 100vh;
+        min-height: 100vh;
+        max-height: 100%;
         width: 100vw;
         background: url(blurry-gradient-haikei\ \(Phone\).png);
         background-repeat: no-repeat;
         background-size: cover;
     }
+
 
     #svg-sign {
         position: relative;
