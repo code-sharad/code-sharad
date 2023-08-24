@@ -2,20 +2,18 @@ let tl = gsap.timeline();
 
 const body = document.querySelector('body');
 
+body.style.webkitFilter='blur(50px)';
+body.style.transition='cubic-bezier(.25, 1, .30, 1) 0.5s'
+
 setTimeout(() => {
     body.style.webkitFilter='blur(0)';
-},1000)
+},800)
 
-body.style.webkitFilter='blur(50px)';
-body.style.transition='ease 0.25s'
 
-// t1.from('img',{
-//     delay:0.5,
-// })
 
-// tl.from("a svg",{
-//     y:-3,
-//     repeat:-1,
-//     yoyo:true
-// })
+tl.from("a svg",{
+    y:-3,
+    repeat:-1,
+    yoyo:true
+})
 
