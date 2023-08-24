@@ -12,7 +12,7 @@ body {
     background: url(blurry-gradient-haikei.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    /* overflow: hidden; */
+    overflow: hidden;
     /* -webkit-filter: blur(50px); */
     /* transition: ease ; */
 }
@@ -138,6 +138,7 @@ p {
         background: url(blurry-gradient-haikei\ \(Phone\).png);
         background-repeat: no-repeat;
         background-size: cover;
+        overflow-y: auto;
     }
 
 
