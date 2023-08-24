@@ -3,7 +3,7 @@ let tl = gsap.timeline();
 const body = document.querySelector('body');
 
 body.style.webkitFilter='blur(50px)';
-body.style.transition='cubic-bezier(.25, 1, .30, 1) 0.5s'
+body.style.transition=' 0.5s'
 
 setTimeout(() => {
     body.style.webkitFilter='blur(0)';
