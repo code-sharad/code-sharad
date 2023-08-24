@@ -32,7 +32,7 @@ body {
     /* transform: rotate(-20deg); */
     animation: sign 3s ease;
     animation-fill-mode: both;
-    animation-delay: 1s;
+    animation-delay: 1.2s;
 }
 
 @keyframes sign {
