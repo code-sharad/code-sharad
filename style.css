@@ -5,10 +5,30 @@
 
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
+#x-icon {
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce-2 {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-4px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
 
 body {
     height: 100%;
