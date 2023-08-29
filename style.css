@@ -52,8 +52,7 @@ body {
 }
 
 #signature {
-    /* stroke-dasharray: 728.6748657226562; */
-    /* stroke-dashoffset: 728.6748657226562; */
+ 
     stroke-dasharray: 1099.19580078125 ;
     stroke-dashoffset: 1099.19580078125 ;
     /* transform: rotate(-20deg); */
