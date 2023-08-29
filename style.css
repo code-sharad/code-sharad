@@ -14,6 +14,8 @@ html {
     animation-timing-function: ease;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+    backface-visibility: hidden;
+    perspective: 1000;
 }
 
 @keyframes bounce-2 {
