@@ -47,13 +47,15 @@ body {
     /* margin: 7px; */
     /* border: 2px solid black; */
     margin-top: 30px;
-    margin-left: -10px;
+    margin-left: -60px;
     height: 70px;
 }
 
 #signature {
-    stroke-dasharray: 728.6748657226562;
-    stroke-dashoffset: 728.6748657226562;
+    /* stroke-dasharray: 728.6748657226562; */
+    /* stroke-dashoffset: 728.6748657226562; */
+    stroke-dasharray: 1099.19580078125 ;
+    stroke-dashoffset: 1099.19580078125 ;
     /* transform: rotate(-20deg); */
     animation: sign 3s cubic-bezier(0.25, 0.1, 0, 1.13);
     animation-fill-mode: both;
