@@ -1,7 +1,7 @@
 {
     "name": "Sharad Bhadait",
     "short_name": "Sharad",
-    "start_url": "/",
+    "start_url": "index.html",
     "display": "standalone",
     "orientation": "portrait-primary",
     "theme_color":"black",
