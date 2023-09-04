@@ -1,19 +1,19 @@
 {
     "name": "Sharad Bhadait",
     "short_name": "Sharad",
-    "start_url": "/",
+    "start_url": "index.html",
     "display": "standalone",
     "orientation": "portrait-primary",
     "theme_color":"black",
     "description": "Portfolio Website App",
     "icons": [
         {
-            "src": "./images/icons/icon-192x192.png",
+            "src": "./images/icons/icons.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "./images/icons/icon-512x512.png",
+            "src": "./images/icons/icons.png",
             "type": "image/png",
             "sizes": "512x512",
             "purpose":"any"
