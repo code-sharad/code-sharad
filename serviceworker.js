@@ -1,20 +1,19 @@
-let staticCacheName = 'pwa';
+// let staticCacheName = 'pwa';
 
-self.addEventListener('install', function (e) {
-    e.waitUntil(
-        caches.open(staticCacheName).then(function (cache) {
-            return cache.addAll(['./index.html']);
-        })
-    );
-});
+// importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js');
+importScripts('https://cdnjs.cloudflare.com/ajax/libs/workbox-sw/7.0.0/workbox-sw.js')
+
+// self.addEventListener('install', function (e) {
+//     e.waitUntil(
+//         caches.open(staticCacheName).then(function (cache) {
+//             return cache.addAll(['./index.html']);
+//         })
+//     );
+// });
 
 
-self.addEventListener('fetch', function (event) {
-    console.log(event.request.url);
+workbox.routing.registerRoute(
+    ({request}) => request.destination === 'image',
+    new workbox.strategies.NetworkFirst()
 
-    event.respondWith(
-        caches.match(event.request).then(function (response) {
-            return response || fetch(event.request);
-        })
-    );
-});
+)
