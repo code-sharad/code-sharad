@@ -46,14 +46,12 @@
 
 
         body.style.webkitFilter = 'blur(50px)';
-        body.style.scale = '1.3';
+        body.style.transform = 'scale(1.3)'
         
         setTimeout(() => {
             body.style.transition = ' 1s';
-            // body.style.transform = 'scale(1.3)'
             body.style.webkitFilter = 'blur(0)';
-            // body.style.transform = 'scale(1)';
-            body.style.scale = '1';
+            body.style.transform = 'scale(1)';
 
 
         }, 600)
