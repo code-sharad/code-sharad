@@ -3,7 +3,6 @@
     "short_name": "Sharad",
     "start_url": "index.html",
     "display": "standalone",
-    "background_color": "#fdfdfd",
     "orientation": "portrait-primary",
     "description": "Portfolio Website App",
     "icons": [
