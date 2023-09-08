@@ -87,6 +87,7 @@ h1 {
 
     /* font-family: 'Satisfy', cursive; */
     font-family: 'Handlee', cursive;
+    font-display: swap;
 
     font-weight: 300;
 }
@@ -135,6 +136,7 @@ main svg {
     margin: 20px;
     font-family: handlee, cursive;
     font-size: x-large;
+    font-display: swap;
     border-radius: 6px;
     text-shadow: 2px 2px 7px plum;
     box-shadow:
@@ -158,6 +160,7 @@ a {
 
 p {
     font-weight: 500;
+    font-display: swap;
 }
 
 @media screen and (max-width:720px) {
