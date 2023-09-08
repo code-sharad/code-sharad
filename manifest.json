@@ -3,6 +3,7 @@
     "short_name": "Sharad",
     "start_url": "index.html",
     "display": "standalone",
+    "theme_color":"black",
     "background_color": "black",
     "orientation": "portrait-primary",
     "description": "Portfolio Website App",
