@@ -203,3 +203,14 @@ p {
         width: 20rem;
     }
 } */
+
+  .blur {
+    background: rgba(255,255,255,0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+
+  #linkedinimg{
+    padding: 8px;
+  }
