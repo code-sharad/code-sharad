@@ -54,6 +54,15 @@
 
 
         }, 10)
+       const img = document.querySelector('img'); 
+       if(img.complete){
+                img.classList.remove('skeleton');
+       }else{
+              img.addEventListener('load',() => {
+                img.classList.remove('skeleton');
+                
+             })
+       }
 
 
     </script>
@@ -68,8 +77,8 @@
 
 
     </header>
-    <main>
-        <img loading="eager" id="profile-image">
+    <main class="">
+        <img loading="lazy" class="profile-image skeleton ">
         <h1>Sharad Bhadait</h1>
 
         <a id="x-icon" href="https://twitter.com/BhadaitSharad" target="_blank">
