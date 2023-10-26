@@ -12,7 +12,7 @@
 
 - 🔭 I’m currently working on **MERN stack**
 
-- 🌱 I’m currently learning **Reactjs**
+- 🌱 I’m currently learning **Full Stack Development**
 
 - 🤝 I’m looking for help with **frontend development and python**
 
