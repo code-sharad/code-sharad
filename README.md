@@ -5,9 +5,6 @@
 <!-- [![Typing SVG](https://readme-typing-svg.demolab.com?font=Handlee&size=32&duration=3000&pause=1000&center=true&width=300&lines=+I'm+a+learning+coder+...;+++++++++++++++++++++++Hey!+It's+Sharad!)](https://git.io/typing-svg) -->
 
 
-<p align='center'>
-    <img align='center' src="[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&pause=1000&random=false&width=800&height=400&lines=I+like+to+learn+new+technologies+to+make+something+useful.)](https://git.io/typing-svg)" />
-</p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=code-sharad&label=Profile%20views&color=0e75b6&style=flat" alt="code-sharad" /> </p>
 
