@@ -3,6 +3,8 @@
 
 
 <!-- [![Typing SVG](https://readme-typing-svg.demolab.com?font=Handlee&size=32&duration=3000&pause=1000&center=true&width=300&lines=+I'm+a+learning+coder+...;+++++++++++++++++++++++Hey!+It's+Sharad!)](https://git.io/typing-svg) -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=I+like+to+learn+new+technologies+to+make+something+useful.)](https://git.io/typing-svg)
+
 <p align='center'>
     <img align='center' src="https://readme-typing-svg.demolab.com?font=Handlee&size=32&duration=3000&pause=1000&center=true&width=300&lines=+I'm+a+learning+coder+...;+++++++++++++++++++++++Hey!+It's+Sharad!" />
 </p>
