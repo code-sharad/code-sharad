@@ -9,14 +9,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=code-sharad&label=Profile%20views&color=0e75b6&style=flat" alt="code-sharad" /> </p>
 
-
-- 🔭 I’m currently working on **Project Showcase website**
-
-- 🌱 I’m currently learning **Full Stack Development**
-
-- 🤝 I’m looking for help with **Web development and python**
-
-- 💬 Ask me about **react,nextjs,prisma,docker,linux, python, javascript, nodejs, tailwindcss, vscode, vim**
 - 👉 I'm open to learn and take challenges
 -  📫 Reach me at **codesharad@gmail.com**
 
