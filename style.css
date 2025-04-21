@@ -44,7 +44,6 @@ body {
   );
   background-repeat: no-repeat;
   background-size: 100%;
-  overflow: hidden;
   /* -webkit-filter: blur(50px); */
   /* transition: ease ; */
 }
@@ -77,7 +76,6 @@ body {
 }
 
 main {
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -92,8 +90,9 @@ h1 {
   /* font-family: 'Satisfy', cursive; */
   font-family: "Handlee", cursive;
   font-display: swap;
-
+  font-size: xx-large;
   font-weight: 300;
+  /* margin-bottom: 5rem; */
 }
 
 .profile-image {
@@ -168,7 +167,6 @@ p {
     min-height: 100vh;
     max-height: 100%;
     width: 100vw;
-    overflow: hidden;
 
     /* background: radial-gradient(#9c8ef5, #b7acf8, #ffffff); */
     background-repeat: no-repeat;
@@ -244,13 +242,13 @@ main {
   align-items: center;
   justify-content: space-between;
   border: none;
-  color: white;
-  background-color: #2c2c2c;
-  min-width: 350px; /* Changed from 80vw */
+  color: black;
+  backdrop-filter: blur(10px);
+  min-width: 250px; /* Changed from 80vw */
   margin: 1rem auto;
-  /* padding: 1rem; */
+  padding: 1rem;
   font-family: handlee, cursive;
-  font-size: 1.25rem; /* Using rem instead of x-large */
+  font-size: 1.5rem; /* Using rem instead of x-large */
   font-display: swap;
   border-radius: 6px;
   text-shadow: 2px 2px 7px plum;
@@ -276,7 +274,6 @@ main {
   }
 
   body {
-    overflow: hidden;
     min-height: 100vh;
     max-height: 100%;
     width: 100vw;
@@ -313,7 +310,6 @@ main {
 @media screen and (max-width: 480px) {
   html {
     font-size: 10px;
-  overflow: hidden;
 
   }
 
