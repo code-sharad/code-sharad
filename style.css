@@ -32,11 +32,16 @@ html {
 
 body {
   min-height: 100vh;
-  overflow: hidden;
   max-height: 100%;
   width: 100vw;
   /* background: url(images/blurry-gradient-haikei.png); */
-  background: radial-gradient(#e2dff5, #b3a7f4, #ffffff);
+  /* background: radial-gradient(#e2dff5, #b3a7f4, #ffffff); */
+  background: linear-gradient(
+    45deg,
+    rgba(156, 142, 245, 1) 0%,
+    rgba(183, 172, 248, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
   background-repeat: no-repeat;
   background-size: 100%;
   overflow: hidden;
@@ -72,6 +77,7 @@ body {
 }
 
 main {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,14 +124,14 @@ main svg {
   filter: drop-shadow(3px 5px 4px rgb(0 0 0 / 0.4));
 }
 
-.card {
+/* .card {
   display: flex;
   align-items: center;
   justify-content: space-between;
   border: none;
   color: black;
   background-color: #ff8446;
-  min-width: 80vw;
+  min-width: 240px;
   max-width: 50rem;
   margin: 20px;
   font-family: handlee, cursive;
@@ -139,7 +145,7 @@ main svg {
     17.1px 16.9px 39.3px -4px rgba(0, 0, 0, 0.077),
     35.3px 34.9px 73.5px -4px rgba(0, 0, 0, 0.074),
     100px 99px 176px -4px rgba(0, 0, 0, 0.063);
-}
+} */
 
 a {
   text-decoration: none;
@@ -162,7 +168,9 @@ p {
     min-height: 100vh;
     max-height: 100%;
     width: 100vw;
-    background: radial-gradient(#9c8ef5, #b7acf8, #ffffff);
+    overflow: hidden;
+
+    /* background: radial-gradient(#9c8ef5, #b7acf8, #ffffff); */
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: auto;
@@ -238,10 +246,9 @@ main {
   border: none;
   color: white;
   background-color: #2c2c2c;
-  width: 90%; /* Changed from 80vw */
-  max-width: 50rem;
+  min-width: 350px; /* Changed from 80vw */
   margin: 1rem auto;
-  padding: 1rem;
+  /* padding: 1rem; */
   font-family: handlee, cursive;
   font-size: 1.25rem; /* Using rem instead of x-large */
   font-display: swap;
@@ -258,9 +265,9 @@ main {
     font-size: 14px;
   }
   
-  .card {
+  /* .card {
     width: 95%;
-  }
+  } */
 }
 
 @media screen and (max-width: 768px) {
@@ -269,10 +276,16 @@ main {
   }
 
   body {
+    overflow: hidden;
     min-height: 100vh;
     max-height: 100%;
     width: 100vw;
-    background: radial-gradient(#9c8ef5, #b7acf8, #ffffff);
+    background: linear-gradient(
+    45deg,
+    rgba(156, 142, 245, 1) 0%,
+    rgba(183, 172, 248, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: auto;
@@ -300,13 +313,15 @@ main {
 @media screen and (max-width: 480px) {
   html {
     font-size: 10px;
+  overflow: hidden;
+
   }
 
-  .card {
+  /* .card {
     width: 100%;
     margin: 1rem 0.5rem;
     padding: 0.75rem;
-  }
+  } */
 
   .card img {
     height: 35px;
