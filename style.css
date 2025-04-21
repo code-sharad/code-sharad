@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 
+
 html {
   scroll-behavior: smooth;
+  font-size: 16px; /* Base font size for rem units */
 }
-
 #x-icon {
   animation-name: bounce-2;
   animation-timing-function: ease;
@@ -34,7 +35,7 @@ body {
   max-height: 100%;
   width: 100vw;
   /* background: url(images/blurry-gradient-haikei.png); */
-  background: radial-gradient(#9888ff, #b3a7f4, #ffffff);
+  background: radial-gradient(#e2dff5, #b3a7f4, #ffffff);
   background-repeat: no-repeat;
   background-size: 100%;
   overflow: hidden;
@@ -122,8 +123,8 @@ main svg {
   justify-content: space-between;
   border: none;
   color: black;
-  background-color: #fcfaf9;
-  width: 80vw;
+  background-color: #ff8446;
+  min-width: 80vw;
   max-width: 50rem;
   margin: 20px;
   font-family: handlee, cursive;
@@ -151,6 +152,7 @@ a {
 
 p {
   font-weight: 500;
+  font-size: larger;
   font-display: swap;
 }
 
@@ -214,5 +216,111 @@ p {
   }
   100% {
     background-color: hsl(200, 20%, 95%);
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem; /* Add horizontal padding */
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  color: white;
+  background-color: #2c2c2c;
+  width: 90%; /* Changed from 80vw */
+  max-width: 50rem;
+  margin: 1rem auto;
+  padding: 1rem;
+  font-family: handlee, cursive;
+  font-size: 1.25rem; /* Using rem instead of x-large */
+  font-display: swap;
+  border-radius: 6px;
+  text-shadow: 2px 2px 7px plum;
+  box-shadow: 1.6px 1.6px 4.9px -4px rgba(0, 0, 0, 0.1),
+    4.3px 4.2px 11.7px -4px rgba(0, 0, 0, 0.081),
+    8.8px 8.7px 22px -4px rgba(0, 0, 0, 0.079);
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+  
+  .card {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+
+  body {
+    min-height: 100vh;
+    max-height: 100%;
+    width: 100vw;
+    background: radial-gradient(#9c8ef5, #b7acf8, #ffffff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: auto;
+  }
+
+  #svg-sign {
+    position: relative;
+    top: 10px;
+    margin-top: 4px;
+    height: 40px; /* Reduced size */
+    left: -10px;
+  }
+
+  .profile-image {
+    height: 100px; /* Reduced size */
+    width: 100px; /* Reduced size */
+  }
+
+  .card img {
+    height: 45px; /* Reduced size */
+    width: 45px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 10px;
+  }
+
+  .card {
+    width: 100%;
+    margin: 1rem 0.5rem;
+    padding: 0.75rem;
+  }
+
+  .card img {
+    height: 35px;
+    width: 35px;
+    margin: 3px;
+  }
+
+  #x-icon svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  main svg {
+    height: 25px;
+    width: 25px;
+    margin: 1.5rem 0;
   }
 }
